@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="{{ url_for('static', filename='form.css') }}">
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="contact-us">
+    <div>
+      <p><b>EMPLOYEES SALARY</b></p>
+    </div>
+    <form action='{{ url_for("form") }}' method="POST">
+      <label for="Increment in Salary(%)">Increment in Salary(%) </label> <input id="z" name="z" required="" type="number" />
+      <button id="SUBMIT">SUBMIT</button>
+    </form>
+  </div>
+
+</body>
+
+</html>
+
+
+
